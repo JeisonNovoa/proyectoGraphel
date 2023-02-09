@@ -1,0 +1,151 @@
+    /*HEADER, NAV AND GENERAL PROPERTIES*/
+    * {
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    header {
+        background-color: #24282b;
+        height: 90px;
+        color: white;
+    }
+
+
+    header h1 {
+        padding-left: 100px;
+        float: left;
+    }
+
+    header ul {
+        padding-right: 90px;
+    }
+
+    header li {
+        float: right;
+        text-align: center;
+        list-style: none;
+        margin-left: 0%;
+        font-weight: 600;
+        margin-right: 3%;
+    }
+
+    header li :hover {
+        color: #1293d4;
+    }
+
+    header a {
+        text-decoration: none;
+        font-size: 15px;
+        color: white;
+    }
+
+    span {
+        color: #1293d4;
+    }
+
+    .NAV-CONTAINER {
+        padding-top: 35px;
+    }
+
+    hr {
+        background-color: #1293d4;
+        height: 5px;
+        border: none;
+    }
+
+    /*FIRST SECTION*/
+
+    #firstSection {
+        height: 480px;
+        background-image: url(/images/cabecera.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    #firstSection h1 {
+        text-align: center;
+        padding-top: 70px;
+        color: white;
+        font-size: 65px;
+    }
+
+    #firstSection p {
+        text-align: center;
+        padding-top: 30px;
+        color: white;
+        font-size: 22px;
+    }
+
+    body {
+        background-color: #f4f4f4;
+    }
+
+    /*SECOND SECTION*/
+
+    #secondSection {
+        height: 90px;
+        text-align: center;
+        background-color: #24282b;
+    }
+
+    #secondSection h1 {
+        float: left;
+        color: white;
+        padding-left: 150px;
+        font-size: larger;
+
+    }
+
+    #secondSection form {
+        float: right;
+        padding-right: 96px;
+    }
+
+    input {
+        height: 30px;
+        width: 285px;
+    }
+
+    button {
+        background-color: #e8491d;
+        border: none;
+        height: 36px;
+        width: 100px;
+        color: white;
+    }
+
+    .body2 {
+        margin-left: 9%;
+    }
+
+    .sections {
+        float: left;
+        text-align: center;
+    }
+
+    .clear {
+        clear: both;
+    }
+
+    .internalContainers {
+        width: 305px;
+        height: 355px;
+        margin: 30px;
+    }
+
+    .text h1 {
+        margin: 15px;
+    }
+
+    /*FOOTER*/
+
+    footer {
+        height: 60px;
+        background-color: #1293d4;
+        text-align: center;
+        color: white;
+    }
+
+    footer p {
+        padding-top: 20px;
+    }

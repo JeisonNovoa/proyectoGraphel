@@ -1,0 +1,129 @@
+/*PROPIEDADES GENERALES*/
+* {
+   margin: 0px;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+/*NAV Y ENCABEZADO*/
+
+header {
+   background-color: #24282b;
+   height: 90px;
+   color: white;
+}
+
+
+header h1 {
+   padding-left: 142px;
+   float: left;
+}
+
+header ul {
+   padding-right: 90px;
+}
+
+header li {
+   float: right;
+   text-align: center;
+   list-style: none;
+   margin-left: 3%;
+   font-weight: 600;
+   margin-right: 1%;
+}
+
+header li :hover {
+   color: #1293d4;
+}
+
+header a {
+   text-decoration: none;
+   font-size: 15px;
+   color: white;
+}
+
+span {
+   color: #1293d4;
+}
+
+.NAV-CONTAINER {
+   padding-top: 35px;
+}
+
+hr {
+   background-color: #1293d4;
+   height: 5px;
+   border: none;
+}
+
+/*FORMULARIO*/
+#secondSection {
+   height: 90px;
+   text-align: center;
+   background-color: #24282b;
+}
+
+#secondSection h1 {
+   float: left;
+   color: white;
+   padding-left: 150px;
+   font-size: larger;
+
+}
+
+#secondSection form {
+   float: right;
+   padding-right: 90px;
+}
+
+input {
+   height: 30px;
+   width: 265px;
+}
+
+button {
+   background-color: #e8491d;
+   border: none;
+   height: 36px;
+   width: 100px;
+   color: white;
+}
+
+aside {
+   color: white;
+    background-color: #35424a;
+    margin: 20px 75px 0px 15px;
+    height: 222px;
+    width: 23%;
+    padding: 15px;
+    float: right;
+}
+
+#terceraSeccion {
+   margin-bottom: 15px;
+}
+
+#services {
+   padding: 20px;
+   margin-left: 116px;
+}
+
+.article {
+   margin: 0px 18px 5px 140px;
+   padding: 40px 0px 40px 25px;
+   width: 53%;
+   background-color: #e6e6e6;
+   border: #cfcfcf;
+}
+
+/*FOOTER*/
+
+footer {
+   height: 60px;
+   background-color: #1293d4;
+   text-align: center;
+   color: white;
+}
+
+footer p {
+   padding-top: 20px;
+}

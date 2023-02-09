@@ -1,0 +1,142 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+
+/*NAV Y ENCABEZADO*/
+
+header {
+    background-color: #24282b;
+    height: 90px;
+    color: white;
+}
+
+
+header h1 {
+    padding-left: 140px;
+    float: left;
+}
+
+header ul {
+    padding-right: 90px;
+}
+
+header li {
+    float: right;
+    text-align: center;
+    list-style: none;
+    margin-left: 3%;
+    font-weight: 600;
+}
+
+header li :hover {
+    color: #1293d4;
+}
+
+header a {
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+}
+
+span {
+    color: #1293d4;
+}
+
+.NAV-CONTAINER {
+    padding-top: 35px;
+}
+
+hr {
+    background-color: #1293d4;
+    height: 5px;
+    border: none;
+}
+
+/*FORMULARIO*/
+#secondSection {
+    height: 90px;
+    text-align: center;
+    background-color: #24282b;
+}
+
+#secondSection h1 {
+    float: left;
+    color: white;
+    padding-left: 150px;
+    font-size: larger;
+
+}
+
+#secondSection form {
+    float: right;
+    padding-right: 90px;
+}
+
+input {
+    height: 30px;
+    width: 265px;
+}
+
+button {
+    background-color: #e8491d;
+    border: none;
+    height: 36px;
+    width: 100px;
+    color: white;
+}
+
+aside {
+    color: white;
+   background-color: #35424a;
+   margin: 20px 78px 0px 15px;
+   height: 244px;
+   width: 23%;
+   padding: 15px;
+   float: right;
+}
+
+img {
+    margin: 83px -23px;
+    height: 266px;
+    width: 360px;
+}
+
+body {
+    background-color: #f4f4f4;
+}
+
+/*CONTACTO*/
+.contact {
+    margin: 15px 30px 30px 130px;
+}
+
+.contact input {
+    margin-bottom: 8px;
+    width: 725px;
+    color: #505050;
+}
+
+.contact textarea {
+    height: 200px;
+    width: 725px;
+    margin-bottom: 3px;
+}
+
+#boton {
+    background-color: #e8491d;
+    border-style: none;
+    color: white;
+}
+
+footer {
+    height: 68px;
+    background-color: #1293d4;
+    text-align: center;
+    color: white;
+    margin-top: -15px;
+}
+
+footer p {
+    padding-top: 29px;
+}
